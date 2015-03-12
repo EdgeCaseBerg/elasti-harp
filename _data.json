@@ -1,0 +1,486 @@
+
+{
+  "index" : {
+    "layout" : "index",
+    "title" : "Ethan's Tech Blog",
+    "description" : "A blog consisting of first-hand experiences with technology, solutions to gotchas and bugs I've found in programs. And sometimes just reviews of a new application that I've used",
+    "freq" : "daily"
+  },
+  "feed" : {
+    "title" : "My RSS Feed",
+    "layout" : false,
+    "freq" : "daily"
+  },
+  "git-crash-course": {
+    "title": "Git Crash Course",
+    "date": "2013-07-30",
+    "description" : "A short tutorial on some of the basics of using <a href=\"http://git-scm.com/\">Git</a> version control.",
+    "keywords" : "git,tutorial,crash course,Ethan",
+    "freq" : "monthly"
+  },
+  "how-this-site-was-made": {
+    "title": "How this site was made",
+    "date": "2013-07-30",
+    "description" : "An (out of date) overview of how this website was made. I used my XeMark language as a static site generator for one of the versions of my website.",
+    "keywords" : "development,XeMark,website",
+    "freq" : "monthly"
+  },
+  "time-catcher-part1": {
+    "title": "Time Catcher Part 1",
+    "date": "2013-09-01",
+    "description" : "The first of a 3 part blog post where I kept running commentary as I created my TimeCatcher programmer.",
+    "keywords" : "timecatcher,time,tracking,program,Ethan Eldridge,C",
+    "freq" : "monthly"
+  },
+  "time-catcher-part2": {
+    "title": "Time Catcher Part 2! (Alpha)",
+    "date": "2013-09-07",
+    "description" : "The second part of the 3 part blog series on my program, Timecather. In this post I talk about a few of the algorithms used within the programmer and a couple other interesting pieces of the code.",
+    "keywords" : "timecatcher,time,tracking,program,Ethan Eldridge,C",
+    "freq" : "monthly"
+  },
+  "time-catcher-part3": {
+    "title": "Time Catcher Part 3",
+    "date": "2013-09-25",
+    "description" : "The third part of the TimeCatcher program series, discussion on implementation of pausing and deleting tasks within the program.",
+    "keywords" : "timecatcher,time,tracking,program,Ethan Eldridge,C",
+    "freq" : "monthly"
+  },
+  "stack-smashing": {
+    "title": "Stack Smashing",
+    "date" : "2013-10-2",
+    "description" : "A short post about how I ran into an interesting case of Stack Smashing while working on the GreenUp VT REST API written in C.",
+    "keywords" : "Stack Smashing,C,REST,API,Server,GreenUp,XenonApps",
+    "freq" : "monthly"
+  },
+  "shortcodes-routing-wordpress": {
+    "title": "Short Codes and Routing in WordPress",
+    "date": "2013-10-3",
+    "description" : "While creating a WordPress module for work, I wanted to serve up a php page, nothing particularly WordPress-y about it, but I ran into some interesting snags that I documented.",
+    "keywords" : "shortcodes,routing,WordPress,Plugins,PHP",
+    "freq" : "monthly"
+  },
+  "numbers-as-markers-google-maps": {
+    "title": "Numbers as Markers on Google Maps",
+    "date": "2013-10-25",
+    "description" : "How to have custom markers on a google map that show numbers",
+    "keywords" : "Google Maps,Markers,Numbers,Custom Markers,Maps,Google",
+    "freq" : "monthly"
+  },
+  "html-templates-and-handlebars": {
+    "title": "HTML Templates and Handlebar",
+    "date": "2013-11-25",
+    "description" : "While looking into some new technology, I ended up messing around with HTML Templates and thought they were cool enough to write about",
+    "keywords" : "templates,HTML,Handlebar,javascript",
+    "freq" : "monthly"
+  },
+  "post__in-returning-results-with-empty-array": {
+    "title": "Empty Post__in WordPress problem",
+    "date": "2013-11-27",
+    "description" : "A short description of a small problem I ran into while using the WP_Query class with an Empty post__in field.",
+    "keywords" : "WordPress,bug,error,input,name,form,forms",
+    "freq" : "monthly"
+  },
+  "college-friend-chicken": {
+    "title": "My Cooking Recipes",
+    "date" : "2013-12-3",
+    "description" : "Blog post about creating the first design and implementation of the cooking section of my website.",
+    "keywords" : "Cooking,Recipes,Ethan,HarpJS,Harp",
+    "freq" : "monthly"
+  },
+  "hosts-file-deployment": {
+    "title": "Hosts file and Testing deployment",
+    "date": "2014-01-2",
+    "description" : "A easy way to trick your computer into using a test environment with a live URL.",
+    "keywords" : "Configuration,Hosts,Hosts File,development",
+    "freq" : "monthly"
+  },
+  "chunked-encoding-for-reports": {
+    "title": "Using Chunked Encoding for Reporting in Wordpress",
+    "date" : "2014-01-9",
+    "description" : "When writing pages that have a lot of output, it's beneficial to use Chunked Encoding rather than Content-length, this post talks about doing it for reporting screens in WordPress",
+    "keywords" : "WordPress,Chunked Encoding,Reporting,Performance",
+    "freq" : "monthly"
+  },
+  "php-wrong-date-half-hour": {
+    "title": "Incorrect Time in PHP despite Timezone",
+    "date": "2014-01-16",
+    "description" : "A weird configuration problem with TimeZone settings in PHP and how it was fixed.",
+    "keywords" : "PHP,Configuration,TimeZone,Incorrect,Error",
+    "freq" : "monthly"
+  },
+  "harp-and-smut": {
+    "title": "Harp and Smut",
+    "date": "2014-01-27",
+    "description" : "A short post about the first time I used <a href=\"http://harpjs.com\">Harp</a> to create a website",
+    "keywords" : "Harp,HarpJS,Smut,Static Site,Development",
+    "freq" : "monthly"
+  },
+  "varnish" : {
+    "title" : "Varnish and API Servers",
+    "date" : "2014-02-17",
+    "description" : "How to configure Varnish for caching of RESTful resources for API Servers, the GreenUp Server configuration is used as an example",
+    "keywords" : "Varnish,API,Performance,REST,GreenUp,Configuration,Caching",
+    "freq" : "monthly"
+  },
+  "wordpress-gripes" : {
+    "title" : "Gripes with wordpress's postmeta and autoload",
+    "date" : "2014-02-28",
+    "description" : "A short tirade about how poor defaults for indexes and shoddy plugins can cause a large amount of pain for a WordPress site's performance",
+    "keywords" : "WordPress,Performance,Postmeta,indexes,SQL",
+    "freq" : "monthly"
+  },
+  "resource-replace" : {
+    "title" : "Resource Replace, update js and css domain links",
+    "date" : "2014-03-06",
+    "description" : "Information about a small plugin to update javascript and css domain names for easier CDN usage for WordPress sites that I wrote.",
+    "keywords" : "Resource Replace,Ethan,Joachim,Eldridge,CDN,update,javascript,css,WordPress",
+    "freq" : "monthly"
+  },
+  "grails-service-mocks" : {
+    "title" : "Grails Service Mocks",
+    "date" : "2014-03-26",
+    "description" : "Stubbing out unneccesary service calls in Grails without Mocks",
+    "keywords" : "Grails,Mock,Stub,Service",
+    "freq" : "monthly"
+  },
+  "wordpress-form-name-error" : {
+    "title" : "404 Error from WordPress Form Submit with an input named 'name'",
+    "date" : "2014-04-05",
+    "description" : "Discovery of a bit of an oddity in WordPress's form input names, you can't have one named 'name'!",
+    "keywords" : "WordPress,name,input,error,bug,Ethan,Eldridge",
+    "freq" : "monthly"
+  },
+  "adding-actions-to-user-lists" : {
+    "title" : "Adding Actions to the WordPress User Lists",
+    "date" : "2014-04-25",
+    "description" : "How to add links and actions to the 'users.php' page of WordPress via filters.",
+    "keywords" : "WordPress,Actions,Users,users.php,filters,Programming,Web",
+    "freq" : "monthly"
+  },
+  "varnish-directors" : {
+    "title" : "Varnish Directors and API Caching",
+    "date" : "2014-05-02",
+    "description" : "How to setup round robin, and health checks for multiple back ends behind Varnish HTTP Cache. GreenUp VT API Server as a case study.",
+    "keywords" : "Varnish,Directors,API,Caching,GreenUp VT,Ethan,Eldridge,XenonApps",
+    "freq" : "monthly"
+  },
+  "green-up-vt-app": {
+    "title" : "Green Up Vermont",
+    "date" : "2014-05-04",
+    "description" : "A short look into what the Green Up VT launch day was like for the developers at XenonApps who monitored the application all day.",
+    "keywords" : "GreenUp,GreenUpVT,GreenUp VT,Vermont,Greep Up,XenonApps,App,Programming",
+    "freq" : "monthly"
+  },
+  "serial-hill-climber-golang" : {
+    "title" : "Serial Hill Climber in GoLang",
+    "date" : "2014-05-20",
+    "description" : "My first foray into GoLang, creating a simple serial hill climber (the simplest of all evolutionary algorithms) in GoLang. Using some of the concurrent features of Go make it a very powerful language for Evolutionary method implementations.",
+    "keywords" : "GoLang,Serial Hill Climber,Evolutionary Algorithms,Algorithms,Computation,concurrent,Ethan,Eldridge,Programming",
+    "freq" : "monthly"
+  },
+  "item-processor-example" : {
+    "title" : "Spring Batch ItemProcessListener Example",
+    "date" : "2014-06-18",
+    "description" : "I couldn't find an example of an item processor being used anywhere, so I decided to make one myself! A simple and quick example of how to use an ItemProcessListener from Spring Batch's",
+    "keywords" : "Spring,Batch,ItemProcessListener,Item,Process,Listener,ItemProcessor,Java,Ethan,Eldridge,Joachim,Programming,",
+    "freq" : "monthly"
+  },
+  "harpjs-macros" : {
+    "title" : "HarpJS and Macros, Static Delivery for Static Content",
+    "date" : "2014-06-20",
+    "description" : "A HarpJS recipe for leveraging CDN's and Static content delivery for your HarpJs site",
+    "keywords" : "HarpJS,Harp,CDN,Static Site,Static Content,Delivery Network,Performance,Website Development,Ethan,Joachim,Eldridge,Programming",
+    "freq" : "monthly"
+  },
+  "googlebot-heisenbug" : {
+    "title" : "'Caught in the Spiders Web' -- A googlebot Heisenbug",
+    "date" : "2014-06-23",
+    "description" : "An interesting bug occured today, and it was all googles fault...",
+    "keywords" : "googlebot,spider,Heisenbug,spiders,bugs,software development,urls visited without a user",
+    "freq" : "monthly"
+  },
+  "custom-permalinks-for-custom-templates" : {
+    "title" : "Custom Permalinks for Custom Tables and Pages",
+    "date" : "2014-06-25",
+    "description" : "How to create custom permalinks for custom pages and page templates. If you're using a custom table and need to alter information on a Page template based on this, then this blog post is for you!",
+    "keywords" : "Custom permalinks,custom tables,custom pages,permalinks,wordpress,SEO,ugly links",
+    "freq" : "monthly"
+  },
+  "xml-sitemap-for-harpjs" : {
+    "title" : "XML Sitemap for Harp JS",
+    "date" : "2014-06-26",
+    "description" : "How to generate a valid XML sitemap for your HarpJS site. It's easy!",
+    "keywords" : "SEO,Sitemap,HarpJS,Development,Programming,Recipes",
+    "freq" : "monthly"
+  },
+  "bgi" : {
+    "title" : "BGI, a way to track your spending",
+    "date" : "2014-07-21",
+    "description" : "Playing around with C CGI scripting in order to track spending habits is fun! A look into a side project.",
+    "keywords" : "C,CGI,BGI,Budgeting,Spending",
+    "freq" : "monthly"
+  },
+  "harp-macro-revisit" : {
+    "title" : "Harp CDN Macro Revisited",
+    "date" : "2014-07-22",
+    "description" : "Revisiting a macro in a previous blog post, cleaning it up for browser caching performance",
+    "keywords" : "Harp,Development,Programming,Recipes,CDN,macros",
+    "freq" : "monthly"
+  },
+  "privateTalk" : {
+    "title" : "Private Talk and plans for some tutorials",
+    "date" : "2014-08-03",
+    "description" : "Some thoughts after creating a private chat server with c and qdecoder. Planning to create a set of tutorials",
+    "keywords" : "C,CGI,apache,chat,server,tutorial",
+    "freq" : "monthly"
+  },
+  "free-item-in-authorize-line-item-invalid" : {
+    "title" : "Authorize LineItem's, mixed free and paid for causes error",
+    "date" : "2014-08-06",
+    "description" : "Ran into a problem where Authorize.net's API wasn't accepting 0 as a unit price because it wasn't formatted as 0.00, but only when a free and non free item were in the line items.",
+    "keywords" : "PHP,Authorize.net,CIM,LineItems,ecommerce,error,debugging",
+    "freq" : "monthly"
+  },
+  "adding-scheduled-posts" : {
+    "title" : "Adding Scheduled Posts to your Harp Site",
+    "date" : "2014-08-13",
+    "description" : "How to create scheduled posts for your Harp Site",
+    "keywords" : "Harp,HarpJS,tutorial,recipe,HTML,JS",
+    "freq" : "monthly"
+  },
+  "cgi-c-harp-1" : {
+    "title" : "Let's make a chat server, Part 1",
+    "date" : "2014-08-16",
+    "description" : "First installment of a C CGI and Harp powered chat platform. The first part focuses on C-based internal functions.",
+    "keywords" : "C,CGI,Harp,HarpJS,Chat,Server,tutorial",
+    "freq" : "monthly"
+  },
+  "cgi-c-harp-2" : {
+    "title" : "Let's make a chat server, Part 2",
+    "date" : "2014-08-21",
+    "description" : "Second installment of a C CGI and Harp powered chat platform. This tutorial focuses on the CGI and qdecoder portions.",
+    "keywords" : "C,CGI,Harp,HarpJS,Chat,Server,tutorial,qdecoder,API",
+    "freq" : "monthly"
+  },
+  "cgi-c-harp-3" : {
+    "title" : "Let's make a chat server, Part 3",
+    "date" : "2014-08-23",
+    "description" : "Third installment of a C CGI and Harp powered chat platform. This post shows how to create the web interface to the server",
+    "keywords" : "C,CGI,Harp,HarpJS,Chat,Server,tutorial,qdecoder,API,HTML,CSS,javascript,Ethan,Eldridge",
+    "freq" : "monthly"
+  },
+  "dynamically-including-js" : {
+    "title" : "Loading JS dynamically in Harp",
+    "date" : "2014-08-24",
+    "description" : "How to dynamically include Javascript on a page served by harp",
+    "keywords" : "Harp,HarpJS,javascript,dynamic,include,Ethan,Eldridge,recipe",
+    "freq" : "monthly"
+  },
+  "autoload-harp-css-js" : {
+    "title" : "Autoload your CSS and Javascript in Harp",
+    "date" : "2014-08-25",
+    "description" : "In a follow up to the last post, I'll show you how to use the same technique to load both CSS and Javascript",
+    "keywords" : "Harp,HarpJS,javascript,dynamic,autoload,recipe,Ethan,Eldridge"
+  },
+  "likert-scales-less-css" : {
+    "title" : "Coloring Likert Scales with LESS CSS",
+    "date" : "2014-09-01",
+    "description" : "Showing how to use a recursive mixin in LESS CSS to create easily coloured likert scales.",
+    "keywords" : "likert,scale,LESS,css,color,design,tip,mixin,recursion,recursive"
+  },
+  "using-encrypted-search-in-chromium" : {
+    "title" : "Using Encrypted Search in Chrome",
+    "date" : "2014-09-25",
+    "description" : "Showing how to set up your browser for more secure searches! For chrome only",
+    "keywords" : "chrome,chromium,security,encrypted,search,encryption,secure,google"
+  },
+  "upgrading-chromium-33-to-37" : {
+    "title" : "Fixing the flash player in Chromium Version 37",
+    "date" : "2014-10-14",
+    "description" : "How to fix pepper flash for chromium version 37 after upgrading",
+    "keywords" : "chrome,chromium,configuration,flash,flash player,version 37,37.0.2062.120"
+  },
+  "today-we-learned-through-games" : {
+    "title" : "Teaching Through Games",
+    "date" : "2014-10-17",
+    "description" : "Educating young students and mentoring people is a great way to give back to the community, when doing so it's great to engage them, and a great way to do so is through games",
+    "keywords" : "nim,education,games,learning,mentoring,learn,C++,game,games,21"
+  },
+  "order-by-rand-mysql" : {
+    "title" : "Order by Rand without a starting ID of 1",
+    "date" : "2014-10-23",
+    "description" : "There are many posts that discuss how not to use order by rand. However all of these fail to address what to do when the distribution of numbers lies at only one extreme of a range. This is how you handle that.",
+    "keywords" : "mysql,order by rand,random,unequal,distribution,order,rand"
+  },
+  "load-opencv-for-spring-bean" : {
+    "title" : "Use Native Library Classes in XML Beans (OpenCV)",
+    "date" : "2014-10-28",
+    "description" : "With normal Java classes you can use System.loadLibrary to use native libraries, but what do you do when you're configuring classes via XML?",
+    "keywords" : "OpenCV,XML,Configuration,loadLibrary,Spring,UnsatisfiedLinkError,Native,JNI,Bean,Java,instantiate,dependency,Batch"
+  },
+  "ambiguous-columns-namedparameterjdbc-order-by" : {
+    "title" : "Dynamic Tablename's in Order By with NamedParameterJdbc",
+    "date" : "2014-10-31",
+    "description" : "When you want to have a parameterized Order By clause and you need to specify the table as well as the column, this is what you do",
+    "keywords" : "Java,NamedParameterJdbcTemplate,Order,Order By,table,dynamic,column,spring,mysql"
+  },
+  "arcstar-chrome-extensions" : {
+    "title" : "*Arc: My First Chrome Extension",
+    "date" : "2014-11-06",
+    "description" : "A simple archiving plugin, my first chrome extension and some thoughts on it",
+    "keywords" : "arcstar,*arc,chrome,chromium,extension,archive,tweetsave"
+  },
+  "shared-voice" : {
+    "title" : "Shared Voice - Activist's tool",
+    "date" : "2014-11-17",
+    "description" : "A tool similar to ThunderClap.it, but more suited for anonymous culture",
+    "keywords" : "twitter,activism,hacktivism,thunderclap,anonymous,tools"
+  },
+  "php-hours" : {
+    "title" : "Displaying Business hours with PHP",
+    "date" : "2014-11-19",
+    "description" : "Storing business hours in a database is a common usecase, having searchable business directories is even better. This is one way to do it",
+    "keywords" : "PHP,hours,business,directory,representation,data"
+  },
+  "subtracting-dates-java" : {
+    "title" : "Adding days with Java",
+    "date" : "2014-11-25",
+    "description" : "Adding and subtracting days in Java, also, how to get the end of the month and first of the month. Useful for database queries and jobs",
+    "keywords" : "Java,Date,Days,Calendar,Subtracting,Adding,First,End,of Month"
+  },
+  "mailing-list" : {
+    "title" : "Make your own Mailing List",
+    "date" : "2014-12-8",
+    "description" : "Making a mailing list to share websites and links with your friends is really easy, check out how to do it here.",
+    "keywords" : "mailing,mail,email,list,sharing,postfix,linux"
+  },
+  "proxy-paranoia-and-resolve" : {
+    "title" : "Proxy Paranoia and DNS resolves",
+    "description" : "A few updates and some non-thinking and it's solution. Just a chronicle of fixing a resolv.conf goof",
+    "freq" : "monthly",
+    "keywords" : "resolv.conf,env,wget,proxy,chromium,stupidity",
+    "date" : "2014-12-12"
+  },
+  "gotodocumentation-sublime-chromium-default" : {
+    "title" : "Setting Chromium as the default browser for GotoDocumentation in Sublime Text 2",
+    "description" : "GotoDocumentation is a pretty cool package for ST2 that opens documentation in a keystroke, but it doesn't support chromium or chrome on all platforms, this is how you hack it.",
+    "freq" : "monthly",
+    "date" : "2014-12-15",
+    "keywords" : "GotoDocumentation,chromium,chrome,webbrowser,sublime,sublime text,sublime text 2,change default browser"
+  },
+  "rss-feed-with-harp" : {
+    "title" : "Create an RSS feed with Harp",
+    "description" : "If you want to add an RSS feed to your website and you're using Harp, this is the post for you",
+    "date" : "2014-12-19",
+    "keywords" : "RSS,feed,Harp,HarpJS,xml"
+  },
+  "change-wp-login-wp" : {
+    "title" : "Change Wordpress login URL",
+    "description" : "It's been blogged to death, but this is how you change the login URL for Wordpress 3.7",
+    "date" : "2014-12-31",
+    "keywords" : "WordPress,login,url,change login url"
+  },
+  "exifstrip-context-nautilus" : {
+    "title" : "Context Menu Button to remove Exif Metadata",
+    "description" : "Make removing metadata from images easier by creating a context menu command to do it for you",
+    "date" : "2015-1-1",
+    "keywords" : "exif,exiftool,remove,metadata,nautilus,privacy,security,context,right click,strip"
+  },
+  "registration-denial-wordpress" : {
+    "title" : "Deny spam emails from registering in WordPress",
+    "description" : "It only takes a single function to mitigate spam accounts clogging your database with spam users.",
+    "date" : "2015-1-3",
+    "keywords" : "spam,mitigation,wordpress.register,domainnames,email,my_simple_domain_check"
+  },
+  "registration-denial-plugin" : {
+    "title" : "Plugin to Ban users and deny registration in WordPress",
+    "description" : "An expansion on the last blog post, a simple plugin to help moderate your site",
+    "date" : "2015-1-5",
+    "keywords" : "moderation,wordpress,ban,deny,track,spam,mitigation"
+  },
+  "mysql-upstart-without-purge" : {
+    "title" : "Stopping mysql Upstart issues without reinstalling",
+    "description" : "Troubleshooting a broken mysql installation without apt-purging",
+    "date" : "2015-1-6",
+    "keywords" : "mysql,upstart,purge,troubleshooting,etc,init.d,rc.d,apt-purge,fixes,ubuntu"
+  },
+  "installing-gentoo-virtualbox" : {
+    "title" : "Attempting to install Gentoo into VirtualBox",
+    "description" : "This fails, but hopefully if someone knows how to fix it they'll let me know.",
+    "date" : "2015-1-11",
+    "keywords" : "gentoo,VirtualBox,installation,segmentation fault,no bootable medium"
+  },
+  "chromium-seccomp-dmesg-errors" : {
+    "title" : "Fixing Chromium's seccomp logging to dmesg",
+    "description" : "If chromium is spamming seccomp error messages to your kernel log, here's how to stop and fix it",
+    "date" : "2015-1-12",
+    "keywords" : "chromium,seccomp,dmesg,chromium-browse,reason=\"seccomp\""
+  },
+  "caja-exifstrip-context-action" : {
+    "title" : "Adding Right Click context actions to Caja",
+    "description" : "A simple script to enable stripping of exifdata from the caja file manager",
+    "date" : "2015-1-14",
+    "keywords" : "caja,exiftool,strip,privacy,caja-actions,context menu,right click,menu"
+  },
+  "github-awesome-autocomplete-review" : {
+    "title" : "Github Awesome Autocomplete Review",
+    "description" : "A look into how awesome the GitHub Awesome Autocomplete really is, turns out, it's pretty wizard.",
+    "date" : "2015-1-21",
+    "keywords" : "github,algolia,review,github awesome autocomplete,git,search"
+  },
+  "apt-get-segfault-mutt" : {
+    "title" : "Segfault in apt-get while trying to install",
+    "description" : "While trying to install mutt, I ran into a segfault in apt-get, here's how I fixed it",
+    "date" : "2015-1-26",
+    "keywords" : "segfault,apt-get,segmentation,fault,install,clean,mutt,fix"
+  },
+  "mutt-vim-decryption" : {
+    "title" : "Vim pgp/gpg macros to enhance mutt",
+    "description" : "Two macros to encrypt and decrypt messages easily",
+    "date" : "2015-1-27",
+    "keywords" : "vim,gpg,pgp,macros,mutt,macros command mode,macros visual mode"
+  },
+  "concurrent-java-stale-data-tolerance-with-executionservice-invokeall-timeout" : {
+    "title" : "Partial Processing of Slow Java Services with ExecutionService",
+    "description" : "If you've ever needed to process partial data that a web service can return, then this post might help you time out so you don't block your whole application",
+    "date" : "2015-2-6",
+    "keywords" :"java,ExecutionService,invokeAll,concurrent,services,timeout"
+  },
+  "lost-found" : {
+	"title" : "Lost and Found Application",
+	"description" : "A highly customizable and user focused application. Meant to help support administrations at events track lost items and assist the people who need them found",
+	"date" : "2015-2-10",
+	"keywords" : "PHP,lost,found,tools,event tools,planning,administration"
+  },
+  "scala-first-look" : {
+	"title" : "A brief look into Scala",
+	"description" : "A random post about some parts of scala I found interesting",
+	"date" : "2015-2-20",
+	"keywords" : "scala,first,look,casbah,xml"
+  },
+  "mcabber-gmail-and-gpg" : {
+	"title" : "Encrypting your chat with mcabber",
+	"description" : "How to use mcabber and gpg to easily establish a secure and private way of talking to loved ones",
+	"date" : "2015-2-21",
+	"keywords" : "privacy,mcabber,gtalk,gmail,gchat,encryption,gpg,security,pgp"
+  },
+  "write-your-own-init-scripts" : {
+    "title" : "Write your own service init scripts",
+    "description" : "Ever wonder how to make your services restart when your server does? This is how!",
+    "date" : "2015-3-6",
+    "keywords" : "init,scripts,service,restart,tutorial,rc.d,init.d"
+  },
+  "green-up-2015" : {
+    "title" : "Preparing for Green Up",
+    "description" : "The configuration and setup of the API servers for this years green up vermont.",
+    "date" : "2015-3-7",
+    "keywords" : "ufw,varnish,api,green up vermont,green up vt,green,up,servers,system administration,sysadmin"
+  },
+  "approaching-optimizations" : {
+    "title" : "Approaching Optimizations",
+    "description" : "My friend requested I write about how I approached an optimization problem, so here it is!",
+    "date" : "2015-3-9",
+    "keywords" : "angry children,hacker rank,optimization,python,len,slice,performance"
+  }
+}
