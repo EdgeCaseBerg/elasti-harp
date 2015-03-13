@@ -1,7 +1,4 @@
-import com.sksamuel.elastic4s.ElasticClient
-import com.sksamuel.elastic4s.ElasticDsl._
-import com.sksamuel.elastic4s.mappings.FieldType._
-
+import scalaj.http._
 import scala.util.parsing.json._
 
 /* Run me from sbt! eg: sbt _data.json myindex/type */
@@ -15,27 +12,21 @@ object elastiharp extends App {
 
 	val jsonString = scala.io.Source.fromFile(args(0)).getLines.mkString
 	val jsonMap = JSON.parseFull(jsonString).get.asInstanceOf[Map[String,Any]]
-	implicit val client = ElasticClient.local
 
-	client.execute {
-  		create index indexAndType.dropRight(indexAndType.indexOf("/")) mappings (
-  			indexAndType.drop(indexAndType.indexOf("/") + 1) as (
-  				"title" typed StringType,
-    			"description" typed StringType,
-    			"keywords" typed StringType
-    		)
-    	)
-	}
+	def sendObjToElasticSearch(indexTypeId: String, obj: JSONObject) {
+		println(s"Trying to send $indexTypeId")
+		val authResult :HttpResponse[String] = Http(s"http://localhost:9200/$indexTypeId").postData(obj.toString())
+			.header("Content-Type", "application/json")
+			.option(HttpOptions.readTimeout(10000))
+			.asString
 
-	def sendObjToElasticSearch(indexAndType : String, id : String, obj: Map[String,String])(implicit client: ElasticClient) {
-		client.execute {
-			index into s"$indexAndType/$id" fields obj
-		}
+		if (authResult.code == 200) println(s"Successfully Sent: $indexTypeId")
+		else println(s"Failed to send: $indexTypeId")
 	}
 
 	for( (key: String, obj: Map[_,_]) <- jsonMap) {
 		/* ignore _ directories, you may need to edit asInstanceOf if you have a more complicated object */
-		if (!key.startsWith("_",0)) sendObjToElasticSearch(indexAndType, key, obj.asInstanceOf[Map[String,String]])
+		if (!key.startsWith("_",0)) sendObjToElasticSearch(s"$indexAndType/$key", scala.util.parsing.json.JSONObject(obj.asInstanceOf[Map[String,String]]))
 	}
 
 }
